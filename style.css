@@ -1,0 +1,297 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #B5BECC;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 5%;
+    background-color: #CED8DF;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    padding: 10px;
+    margin: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 650;
+    color: rgb(71, 71, 71);
+}
+
+nav ul li a:hover{
+    background-color:rgb(59, 59, 59);
+    color: white;
+    border-radius: 5px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #A1A3B7;
+    
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(43, 42, 42);; 
+}
+
+.hero{
+    height: 500px;
+}
+
+.hero img{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.hero p{
+    line-height: 5px;
+    margin: 55px 0 25px;
+}
+
+.hero p:nth-child(2){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+.hero p:nth-child(3){
+    font-size: 30px;
+    text-align: center;
+}
+
+.judulprofil{
+    height: auto;
+    width: auto;
+}
+
+.judulprofil p{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(58, 58, 58);
+}
+
+.profilsaya{
+    text-align: center;
+    
+}
+
+.profilsaya p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(94, 95, 97);
+    margin-bottom: 0px;
+}
+
+.judulskill{
+    height: auto;
+    width: auto;
+}
+
+.judulskill p{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(58, 58, 58);
+}
+
+.semuaskil{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.desain{
+    height: 300px;
+    width: 300px;
+    background-color:  #8f92af;
+    margin: 30px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.desain p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: rgb(94, 95, 97);
+}
+
+.desain img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10%;
+}
+
+.program{
+    height: 300px;
+    width: 300px;
+    background-color: #8f92af;
+    margin: 30px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: 
+}
+
+.program p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: rgb(94, 95, 97);
+}
+
+.program img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10%;
+}
+
+.leadership{
+    height: 300px;
+    width: 300px;
+    background-color:#8f92af;
+    margin: 30px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.leadership p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: rgb(94, 95, 97);
+}
+
+.leadership img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10%;
+}
+
+.desain h3, .program h3, leadership, h3{
+    line-height: 0px;
+    padding-bottom: 0px;
+    color: rgb(58, 58, 58);
+}
+
+.kontaksaya{
+    height: 200px;
+}
+
+.kontaksaya p:nth-child(1){
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    color: rgb(58, 58, 58);
+}
+
+.kontaksaya p:nth-child(2){
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    color: rgb(94, 95, 97);
+}
+
+.infokontak{
+    margin: 30px 12px;
+    text-align: center;
+}
+
+.infokontak a{
+    text-decoration: none;
+    color: rgb(94, 95, 97);
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.infokontak i{
+    font-size: 30px;
+    color: green;
+}
+.nomor{
+    padding: 10px;
+}
+
+
+.sosdesc{
+    background-color:#CED8DF;
+    text-align: center;
+}
+
+.sosdesc p:nth-child(1){
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 12px;
+    color: rgb(58, 58, 58);
+    
+}
+
+.sosdesc p:nth-child(2){
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(94, 95, 97);
+}
+
+.sosdesc p:nth-child(4){
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color
+}
+
+.sosmed{
+    font-size: 50px;
+}
+
+.sosmed a{
+    margin-right: 30px;
+}
+
+.sosmed a i{
+    color: gray;
+}
+
+
+
+
